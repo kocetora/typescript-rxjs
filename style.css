@@ -1,0 +1,92 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+#form {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2% 0% 2% 0%;
+}
+
+#title {
+    padding-left: 3%;
+    font-weight: 600;
+    min-width: 100px;
+}
+
+h3, p {
+    color: white;
+}
+
+input{
+    margin: 1% 0 1% 0;
+    border: solid 1px rgb(25, 25, 25);
+    color: white;
+    background-color: rgb(25, 25, 25);
+    border-bottom-color: grey;
+}
+
+@media (max-height: 420px) {
+    app-root {
+        margin: 0;
+        margin-top: 100px;
+    }
+}
+
+input {
+    text-align: center;
+    margin: 3% 2% 3% 2%;
+}
+
+::placeholder {
+    color: rgb(161, 161, 161);
+    font-size: 1em;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+    flex: 2;
+    background-color: rgb(45, 45, 45);
+    border: solid 2px white;
+    margin: 1% auto 3% auto;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 1% 0% 1% 0%;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(25, 25, 25);
+}
+
+button:disabled{
+    background-color: rgb(161, 161, 161);
+}
